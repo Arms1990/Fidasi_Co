@@ -1,0 +1,16 @@
+name: Deploy CI
+
+on:
+  push:
+    branches: [ dev ]
+
+jobs:
+
+  build:
+
+    runs-on: self-hosted
+
+    steps:
+    - uses: actions/checkout@dev
+    - name: Build the Docker Compose
+      run: docker-compose up -d --build
