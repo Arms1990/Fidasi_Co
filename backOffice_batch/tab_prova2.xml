@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<backOfficeLoader>
+	<bo.tab_prova CSVSeparator=";" Commit="1000">
+		<a type="Int" Seq="0">ID_ELAB</a>
+		<b type="STRING" Seq="1">ARGUMENT_0</b>
+		<c type="DECIMAL" Seq="2" Format="en-US"></c>
+		<d type="DATE" Seq="3" Format="YYYYMMDD"></d>
+		<e Type="TIMESTAMP" Seq="4" Format="DD/MM/YYYY HH:MI:SS"></e>
+	</bo.tab_prova>
+</backOfficeLoader>	

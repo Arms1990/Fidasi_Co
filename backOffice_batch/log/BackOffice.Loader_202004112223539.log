@@ -1,0 +1,2 @@
+DEBUG|2020-04-21 22:35:40,349|LogManager(startElab:43)| backOffice.Loader: Elaboratione iniziata
+DEBUG|2020-04-21 22:35:42,299|LogManager(EndElab:68)| backOffice.Loader: Elaboration terminata con successo. 

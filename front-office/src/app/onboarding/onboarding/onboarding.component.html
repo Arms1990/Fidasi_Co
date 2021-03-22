@@ -1,0 +1,135 @@
+<div class="flex h-full align-items-center justify-content-center flex-col py-16 md:py-24 md:px-80">
+
+
+    <ng-container *ngIf="!isDone">
+            <h1 class="text-5xl text-center">Benvenuto</h1>
+            <form (submit)="onboard($event)" [formGroup]="onboardingForm">
+                <div class="justify-self-auto">
+                <div class="shadow overflow-hidden sm:rounded-md">
+                <div class="px-4 py-5 bg-white sm:p-6">
+
+                        <div class="grid grid-cols-12 my-4">
+                            <div class="col-span-12 sm:col-span-12">
+                                <label for="moa" class="block text-sm font-medium text-gray-700">Comune di attivazione</label>
+                                <input type="text" formControlName="moa" id="moa" class="mt-1 focus:ring-primary-500 focus:border-primary-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                            </div>
+                        </div>
+
+
+
+                        <div class="grid grid-cols-6 gap-6 my-4">
+                            <div class="col-span-6 sm:col-span-3">
+                                <label for="first_name" class="block text-sm font-medium text-gray-700">Nome</label>
+                                <input type="text" formControlName="first_name" id="first_name" class="mt-1 focus:ring-primary-500 focus:border-primary-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                            </div>
+
+                            <div class="col-span-6 sm:col-span-3">
+                                <label for="surname" class="block text-sm font-medium text-gray-700">Cognome</label>
+                                <input type="text" formControlName="surname" id="surname" class="mt-1 focus:ring-primary-500 focus:border-primary-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-12 my-4">
+                            <div class="col-span-12 sm:col-span-12">
+                                <label for="telephone" class="block text-sm font-medium text-gray-700">Numero di telefono</label>
+                                <input type="text" formControlName="telephone" id="telephone" class="mt-1 focus:ring-primary-500 focus:border-primary-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-12 my-4">
+                            <div class="col-span-12 sm:col-span-12">
+                                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                                <input type="text" formControlName="email" id="email" class="mt-1 focus:ring-primary-500 focus:border-primary-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                            </div>
+                        </div>
+
+                        <!-- <div class="my-4">
+                            <p class="text-base font-medium text-gray-900">Activation Type</p>
+                            <div class="mt-4 space-y-4">
+                                <div class="flex items-center" *ngFor="let activationType of activationTypes; let i = index">
+                                    <input [id]="'activationType' + i" formControlName="activationType" [value]="activationType.value" type="radio" class="focus:ring-primary-500 h-4 w-4 text-primary-600 border-gray-300" />
+                                    <label [for]="'activationType' + i" class="ml-3 block text-sm font-medium text-gray-700">{{activationType.label}}</label>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="my-4">
+                            <p class="text-base font-medium text-gray-900">How many people live in the house?</p>
+                            <div class="mt-4 space-y-4">
+                                <div class="flex items-center" *ngFor="let numberOfPeople of numberOfPeoples; let i = index">
+                                    <input [id]="'numberOfPeople_' + i" formControlName="numberOfPeople" [value]="numberOfPeople.value" type="radio" class="focus:ring-primary-500 h-4 w-4 text-primary-600 border-gray-300" />
+                                    <label [for]="'numberOfPeople_' + i" class="ml-3 block text-sm font-medium text-gray-700">{{numberOfPeople.label}}</label>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="my-4" formArrayName="appliances">
+                            <p class="text-base font-medium text-gray-900">What appliances do you use?</p>
+                            <div class="mt-4 space-y-4">
+                                <div class="flex items-start" *ngFor="let appliance of appliances.controls; let i = index">
+                                    <div class="flex items-center h-5">
+                                        <input [id]="i" [formControlName]="i" type="checkbox" class="focus:ring-primary-500 h-4 w-4 text-primary-600 border-gray-300 rounded">
+                                    </div>
+                                    <div class="ml-3 text-sm">
+                                        <label [for]="i" class="font-medium text-gray-700">{{listOfAppliances[i].label}}</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- <p>OR</p>
+                        <p></p>
+
+                        <div class="my-4">
+                            <label class="block text-sm font-medium text-gray-700">
+                                If you prefer, attach your bill
+                            </label>
+                            <div class="mt-2 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
+                                <div class="space-y-1 text-center">
+                                    <svg class="mx-auto h-12 w-12 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-hidden="true">
+                                        <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <div class="flex text-sm text-gray-600">
+                                        <label for="document" class="relative cursor-pointer bg-white rounded-md font-medium text-primary-600 hover:text-primary-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-primary-500">
+                                            <span>Upload document</span>
+                                            <input id="document" formControlName="document" type="file" class="sr-only">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div class="my-4">
+
+                            <div class="mt-4 space-y-4">
+                                <div class="flex items-start">
+                                    <div class="flex items-center h-5">
+                                        <input id="tos" [value]="tos" formControlName="tos" type="checkbox" class="focus:ring-primary-500 h-4 w-4 text-primary-600 border-gray-300 rounded">
+                                    </div>
+                                    <div class="ml-3 text-sm">
+                                        <label for="tos" class="font-medium text-gray-700">Acconsento al trattamento dei miei dati personali da parte di Fidasi per attivita' di promozione e commercializzazione, effettuate anche attrraverso telefonate commerciali.</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="px-4 py-3 sm:px-6">
+                            <button type="submit" class="inline-flex w-full justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500">
+                                Conferma Dati
+                            </button>
+                        </div>
+
+                        
+
+                    </div>
+                </div>
+            </div>
+        </form>
+    </ng-container>
+
+    <ng-container *ngIf="isDone">
+        <h1 class="text-5xl text-center">Grazie!</h1>
+    </ng-container>
+
+</div>

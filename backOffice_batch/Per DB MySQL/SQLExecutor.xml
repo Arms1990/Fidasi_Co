@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<backOfficeSQLExecutor>
+	<SQLCommand_tipo_1>
+		<SQLCommand>
+			<![CDATA[
+				update tab_prova set b='Aggiornato da SQLExecutor :)'				
+			]]>
+		</SQLCommand>
+	</SQLCommand_tipo_1>	
+	<SQLCommand_tipo_2>
+		<SQLCommand>
+			<![CDATA[
+				CALL `update_tab_prova` ('aggiornata da stored lanciata da SQLExecutor')
+			]]>
+		</SQLCommand>
+	</SQLCommand_tipo_2>	
+	<SQLCommand_tipo_3 RETURN="Y">
+		<SQLCommand>
+			<![CDATA[
+				select  `select_tab_prova` (1)
+			]]>
+		</SQLCommand>
+	</SQLCommand_tipo_3>	
+	<SQLCommand_tipo_4 RETURN="Y">
+		<SQLCommand>
+			<![CDATA[
+				select  `select_tab_prova_all` ()
+			]]>
+		</SQLCommand>
+	</SQLCommand_tipo_4>	
+
+</backOfficeSQLExecutor>	

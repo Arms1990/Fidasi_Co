@@ -1,0 +1,2 @@
+(this["webpackJsonpback-office"]=this["webpackJsonpback-office"]||[]).push([[11],{791:function(e,t,a){"use strict";a.r(t);var n=a(1),c=a.n(n),s=a(96);class o extends n.Component{render(){return c.a.createElement(s.a,{to:"/app"})}}t.default=o}}]);
+//# sourceMappingURL=views.b87098be.chunk.js.map

@@ -1,0 +1,2 @@
+DEBUG|2021-03-18 17:00:54,656|LogManager(startElab:43)| backOffice.Loader: Elaboratione iniziata
+DEBUG|2021-03-18 17:00:54,818|LogManager(EndElab:80)| backOffice.Loader: Elaboration in errore.Errore Info non valide per la per la colonna 1 durante l'inserimento massivo per la riga : 1.2;20200102;01/02/2019 01:02:03, colonne parsate dallo split: 1.2;20200102;01/02/2019 01:02:03;- Messaggio d'errore: null

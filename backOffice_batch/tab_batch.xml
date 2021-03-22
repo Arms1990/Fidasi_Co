@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<backOfficeLoader>
+	<batch.contractenel CSVSeparator=";" Commit="1000">
+		<tipologia type="STRING" Seq="0"></tipologia>
+		<data_inserimento type "STRING" Seq="1"></data_inserimento>
+		<agenzia type "STRING" Seq="2"></agenzia>
+		<venditore type "STRING" Seq="3"></venditore>
+		<plico type "STRING" Seq="4"></plico>
+		<cs type "STRING" Seq="5"></cs>
+		<piva_cf type "STRING" Seq="6"></piva_cf>
+		<ragsoc_denomin type "STRING" Seq="7"></ragsoc_denomin>
+		<fornitura type "STRING" Seq="8"></fornitura>
+		<kw_mc type "STRING" Seq="9"></kw_mc>
+		<consumo_annuo type "STRING" Seq="10"></consumo_annuo>
+		<pod type "STRING" Seq="11"></pod>
+		<pdr type "STRING" Seq="12"></pdr>
+		<fatt type "STRING" Seq="13"></fatt>
+		<rid type "STRING" Seq="14"></rid>
+		<bw type "STRING" Seq="15"></bw>
+		<ev type "STRING" Seq="16"></ev>
+		<offerta type "STRING" Seq="17"></offerta>
+		<telefono_1 type "STRING" Seq="18"></telefono_1>
+		<telefono_2 type "STRING" Seq="19"></telefono_2>
+		<competenza type "STRING" Seq="20"></competenza>
+		<stato_run type "STRING" Seq="21"></stato_run>
+		<note type "STRING" Seq="22"></note>
+		<stato_offerta type "STRING" Seq="23"></stato_offerta>
+		<causale type "STRING" Seq="24"></causale>
+		<provincia type "STRING" Seq="25"></provincia>
+		<cap type "STRING" Seq="26"></cap>
+		<indirizzo type "STRING" Seq="27"></indirizzo>
+		<id_elab type "STRING" Seq="28">ID_ELAB</id_elab>
+	</batch.contractenel>
+</backOfficeLoader>	

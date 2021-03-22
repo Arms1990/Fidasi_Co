@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<backOfficeMail>
+	<mail_tipo_1>
+		<from>anonymous.guest@virgilio.it</from>
+		<to>mauro.antonio.radice@gmail.com,armandocito@gmail.com,basso.dario@gmail.com</to>
+		<cc></cc>
+		<bcc></bcc>
+		<subject>Tipo_1</subject>
+		<body>
+			<![CDATA[
+			<p>Mail inviata collegandomi al server! E ad Armando Cito ci piace il nero che si avvolge il pene nella carta vetrata!<p>			
+			]]>
+		</body>
+	</mail_tipo_1>	
+</backOfficeMail>	

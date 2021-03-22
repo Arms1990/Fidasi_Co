@@ -1,0 +1,2 @@
+DEBUG|2021-03-15 17:30:43,057|LogManager(startElab:43)| backOffice.Loader: Elaboratione iniziata
+ERROR|2021-03-15 17:30:43,118|LogManager(startElab:48)| backOffice.Loader: Elaboration abortita

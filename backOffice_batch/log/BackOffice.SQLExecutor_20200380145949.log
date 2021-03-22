@@ -1,0 +1,8 @@
+DEBUG|2020-03-20 14:59:50,193|LogManager(startElab:43)| backOffice.SQLExecutor: Elaboratione iniziata
+DEBUG|2020-03-20 14:59:59,100|LogManager(Insert:101)| aggiornata da stored lanciata da SQLExecutor
+DEBUG|2020-03-20 14:59:59,103|LogManager(Insert:101)| Comando eseguito correttamente: 
+			
+				select  `select_tab_prova` (1)
+			
+		
+DEBUG|2020-03-20 14:59:59,108|LogManager(EndElab:68)| backOffice.SQLExecutor: Elaboration terminata con successo. 

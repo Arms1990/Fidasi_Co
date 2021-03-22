@@ -1,0 +1,152 @@
+DEBUG|2020-03-02 16:05:14,016|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-03 17:46:17,781|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-03 17:56:25,418|LogManager(EndElab:74)| backOfficeLoader: Elaboration in errore.Errore durante l'inserimento massivo alla riga 1.  - messaggio d'errore: No value specified for parameter 1
+DEBUG|2020-03-03 17:58:16,517|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-03 17:59:42,427|LogManager(EndElab:74)| backOfficeLoader: Elaboration in errore.Errore durante l'inserimento massivo alla riga 1.  - messaggio d'errore: No value specified for parameter 1
+DEBUG|2020-03-04 09:20:24,170|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+ERROR|2020-03-04 09:20:24,310|LogManager(startElab:43)| backOfficeLoader: Elaboration abortita
+DEBUG|2020-03-04 09:21:43,660|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-04 09:28:14,283|LogManager(EndElab:74)| backOfficeLoader: Elaboration in errore.Errore durante l'inserimento massivo alla riga 1. Formato non valido alla colonna 5, campo=e, tipo=TIMESTAMP, formato=DD/MM/YYYY HH:MI:SS e valore letto in input=01/02/2019 01:02:03 - messaggio d'errore: null
+DEBUG|2020-03-04 09:31:28,789|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-04 09:32:59,020|LogManager(EndElab:74)| backOfficeLoader: Elaboration in errore.Errore durante l'inserimento massivo alla riga 1. Formato non valido alla colonna 5, campo=e, tipo=TIMESTAMP, formato=DD/MM/YYYY HH:MI:SS e valore letto in input=01/02/2019 01:02:03 - messaggio d'errore: null
+DEBUG|2020-03-04 09:37:00,438|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-04 09:38:59,451|LogManager(EndElab:63)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-04 10:31:11,986|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-04 10:31:28,161|LogManager(EndElab:63)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-04 10:35:46,163|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-04 10:35:53,630|LogManager(EndElab:63)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-04 14:59:05,346|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-04 14:59:51,874|LogManager(EndElab:74)| backOfficeLoader: Elaboration in errore.Column Index out of range, 0 < 1.
+DEBUG|2020-03-04 15:00:34,966|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-04 15:00:35,086|LogManager(EndElab:63)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-04 15:04:42,207|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-04 15:04:42,335|LogManager(EndElab:63)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-06 16:44:54,894|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-06 16:46:01,716|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-06 16:48:21,528|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-06 16:49:04,207|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 09:53:14,983|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 10:08:26,043|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 10:30:38,362|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+ERROR|2020-03-09 10:30:38,483|LogManager(startElab:43)| backOfficeLoader: Elaboration abortita
+DEBUG|2020-03-09 10:31:16,441|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 10:36:07,514|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 11:46:37,057|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 11:46:37,287|LogManager(EndElab:74)| backOfficeLoader: Elaboration in errore.You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': 123','</b>') FROM tab_prova' at line 1
+DEBUG|2020-03-09 11:48:53,094|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 11:50:13,228|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 11:51:05,155|LogManager(EndElab:74)| backOfficeLoader: Elaboration in errore.Illegal semicolon, not in group
+DEBUG|2020-03-09 11:52:14,578|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 11:55:05,687|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 11:57:44,957|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 11:59:56,357|LogManager(EndElab:74)| backOfficeLoader: Elaboration in errore.Couldn't connect to host, port: out.virgilio.it, 587; timeout -1
+DEBUG|2020-03-09 12:52:24,684|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 13:04:28,264|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 13:05:32,492|LogManager(EndElab:74)| backOfficeLoader: Elaboration in errore.Connection timed out: connect
+DEBUG|2020-03-09 13:59:25,331|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 13:59:46,813|LogManager(EndElab:74)| backOfficeLoader: Elaboration in errore.Connection timed out: connect
+DEBUG|2020-03-09 14:00:43,195|LogManager(startElab:38)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-09 14:01:04,567|LogManager(EndElab:74)| backOfficeLoader: Elaboration in errore.Couldn't connect to host, port: out.virgilio.it, 587; timeout -1
+DEBUG|2020-03-10 10:04:47,992|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 10:04:48,152|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-10 10:12:58,724|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 10:12:58,879|LogManager(EndElab:76)| backOfficeLoader: Elaboration in errore.You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Programmazione & co\\\\\\\\\\\\\\\\\\\\\\\\\\\\' at line 1
+DEBUG|2020-03-10 10:13:25,057|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+ERROR|2020-03-10 10:13:25,146|LogManager(startElab:45)| backOfficeLoader: Elaboration abortita
+DEBUG|2020-03-10 10:13:38,072|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 10:13:38,219|LogManager(EndElab:76)| backOfficeLoader: Elaboration in errore.You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':\Programmazione & co\backOffice\bo.properties;'''''''''''''''''''''''''''''''',' at line 1
+DEBUG|2020-03-10 10:14:33,228|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 10:14:33,381|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-10 12:37:43,027|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 12:37:43,277|LogManager(EndElab:76)| backOfficeLoader: Elaboration in errore.You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT CONCAT('C:\Programmazione & co\backOffice\bo.properties;',IFNULL(a,''),';' at line 2
+DEBUG|2020-03-10 12:43:38,555|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 12:46:49,735|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:09:41,375|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:10:44,085|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:11:54,908|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:13:16,664|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:25:42,415|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:28:01,897|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:31:15,809|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:32:13,482|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:32:24,250|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-10 14:37:06,012|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:37:06,129|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-10 14:45:36,781|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:45:51,244|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-10 14:52:32,449|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:53:25,318|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-10 14:55:51,283|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:56:04,306|LogManager(EndElab:76)| backOfficeLoader: Elaboration in errore.550 <backOffice.Mail> invalid address 'backOffice.Mail'
+
+DEBUG|2020-03-10 14:58:05,980|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:58:06,580|LogManager(EndElab:76)| backOfficeLoader: Elaboration in errore.550 Invalid Mailfrom [smtp-44.iol.local; VIR_430]
+
+DEBUG|2020-03-10 14:59:05,094|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:59:05,927|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-10 14:59:51,800|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 14:59:53,004|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-10 15:17:33,232|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 15:17:34,150|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-10 15:57:47,435|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 15:58:24,610|LogManager(EndElab:76)| backOfficeLoader: Elaboration in errore.Could not parse response code.
+Server Reply: Protocol mismatch.
+
+DEBUG|2020-03-10 16:25:57,526|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+ERROR|2020-03-10 16:25:57,610|LogManager(startElab:45)| backOfficeLoader: Elaboration abortita
+DEBUG|2020-03-10 16:44:26,760|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 16:50:15,693|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 16:50:44,227|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-10 17:13:04,882|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 17:13:05,056|LogManager(EndElab:76)| backOfficeLoader: Elaboration in errore.Errore durante l'inserimento massivo alla riga 1. Formato non valido alla colonna 4, campo=d, tipo=DATE, formato=YYYYMMDD e valore letto in input=01/02/2019 01:02:03 - messaggio d'errore: For input string: "01/0"
+DEBUG|2020-03-10 17:15:35,472|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 17:20:18,708|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-10 17:20:18,909|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-12 14:58:29,018|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-12 16:29:04,712|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-12 16:29:05,546|LogManager(EndElab:76)| backOfficeLoader: Elaboration in errore.-1
+DEBUG|2020-03-12 16:36:20,402|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-12 16:36:22,291|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-13 14:10:35,818|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 14:10:36,047|LogManager(EndElab:76)| backOfficeLoader: Elaboration in errore.Errore durante l'inserimento massivo alla riga 1. Formato non valido alla colonna 1, campo=id, tipo=INT, formato=null e valore letto in input=﻿C000000 - messaggio d'errore: For input string: "﻿C000000"
+DEBUG|2020-03-13 14:55:38,399|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 14:55:38,541|LogManager(EndElab:76)| backOfficeLoader: Elaboration in errore.Errore durante l'inserimento massivo alla riga 1.  - messaggio d'errore: null
+DEBUG|2020-03-13 14:58:29,396|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 15:01:21,802|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 15:04:13,318|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 15:06:04,803|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 15:06:04,933|LogManager(EndElab:76)| backOfficeLoader: Elaboration in errore.Errore durante l'inserimento massivo alla riga 1.  - messaggio d'errore: null
+DEBUG|2020-03-13 15:06:23,273|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 15:12:13,670|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+ERROR|2020-03-13 15:12:13,765|LogManager(startElab:45)| backOfficeLoader: Elaboration abortita
+DEBUG|2020-03-13 15:12:28,592|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 15:19:08,515|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 15:19:18,466|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-13 15:26:54,416|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 15:28:17,562|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-13 15:33:03,751|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 15:33:13,121|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-13 15:37:40,612|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 15:37:43,579|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-13 15:40:07,822|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 15:40:07,956|LogManager(EndElab:76)| backOfficeLoader: Elaboration in errore.Errore durante l'inserimento massivo alla riga 1. Formato non valido alla colonna 1, campo=DataDoc, tipo=STRING, formato=null e valore letto in input=02/01/2020 00:00 - messaggio d'errore: For input string: " "
+DEBUG|2020-03-13 15:44:13,483|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 15:48:35,777|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 15:55:37,862|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 15:55:39,114|LogManager(EndElab:76)| backOfficeLoader: Elaboration in errore.Errore durante l'inserimento massivo alla riga 1001. Formato non valido alla colonna 30, campo=Cd_ARMarca, tipo=STRING, formato=null e valore letto in input=HUA - messaggio d'errore: Data truncation: Data too long for column 'Descrizione' at row 1
+DEBUG|2020-03-13 16:01:41,572|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 16:01:44,608|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-13 16:06:44,494|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 16:07:22,550|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-13 16:17:09,501|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-13 16:17:45,927|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-16 12:22:30,206|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-16 12:23:32,076|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-16 12:25:54,824|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-16 12:26:24,102|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-16 12:30:32,753|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-16 12:30:34,698|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-16 12:39:27,519|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-16 12:39:29,178|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 
+DEBUG|2020-03-16 12:50:34,282|LogManager(startElab:40)| backOfficeLoader: Elaboratione iniziata
+DEBUG|2020-03-16 12:50:36,109|LogManager(EndElab:65)| backOfficeLoader: Elaboration terminata con successo. 

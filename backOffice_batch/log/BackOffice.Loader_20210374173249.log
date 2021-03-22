@@ -1,0 +1,2 @@
+DEBUG|2021-03-15 17:32:49,748|LogManager(startElab:43)| backOffice.Loader: Elaboratione iniziata
+DEBUG|2021-03-15 17:32:49,890|LogManager(EndElab:79)| backOffice.Loader: Elaboration in errore.Errore  durante l'inserimento massivo per la riga : - Messaggio d'errore: ERROR: relation "batch.tab_prova" does not exist

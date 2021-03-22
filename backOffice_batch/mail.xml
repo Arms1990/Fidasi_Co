@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<backOfficeMail>
+	<mail_tipo_1>
+		<from>anonymous.guest@virgilio.it</from>
+		<to>mauro.antonio.radice@gmail.com,armandocito@gmail.com</to>
+		<cc></cc>
+		<bcc></bcc>
+		<subject>Tipo_1</subject>
+		<body>
+			<![CDATA[
+			<p>RECORDS in tab_prova: §SELECT concat('<b>',count(*),', quarto parametro: #ARGUMENT_3#','</b>') FROM tab_prova§<p>			
+			]]>
+		</body>
+	</mail_tipo_1>	
+</backOfficeMail>	

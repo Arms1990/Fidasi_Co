@@ -1,0 +1,86 @@
+java -jar backOffice.jar Loader "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\tab_prova2.xml" "C:\Programmazione & co\backOffice\tab_prova2.csv" N tab_prova S 123 345
+
+Loader bo.properties tab_prova.xml tab_prova.csv N tab_prova S 123 345 4000
+
+Mail "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\mail.xml" mail_tipo_1 123 345 "C:\Programmazione & co\backOffice\tab_prova_out.csv"
+
+Mail "C:\Programmazione & co\backOffice\bo_server.properties" "C:\Programmazione & co\backOffice\mail_server.xml" mail_tipo_1 123 345 
+
+FTP "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\ftp.xml" ftp_tipo_1 123 345 "C:\Programmazione & co\backOffice\tab_prova_out.csv"
+
+FTP "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\ftp2.xml" ftp_tipo_1 123 345 "C:\Programmazione & co\backOffice\tab_prova_out.csv"
+
+Tabelle vere:
+
+Loader "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\Tabs_Collection.xml" "C:\Programmazione & co\backOffice\ANAGRAFICA_COLL.csv" N ANAGRAFICA_COLL S 123 345
+
+java -jar backOffice.jar Loader "C:\Programmazione & co\backOffice\bo_server.properties" "C:\Programmazione & co\backOffice\Tabs_Collection.xml" "C:\Programmazione & co\backOffice\ANAGRAFICA_COLL.csv" N ANAGRAFICA_COLL S 123 345
+
+
+
+Loader "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\Tabs_Collection.xml" "C:\Programmazione & co\backOffice\FATTURATO_SRL.csv" N FATTURATO_SRL S 123 345
+
+Loader "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\Tabs_Collection.xml" "C:\Programmazione & co\backOffice\FATTURATO_ITA.csv" N FATTURATO_ITA S 123 345
+
+Loader "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\Tabs_Collection.xml" "C:\Programmazione & co\backOffice\FIDI.csv" N FIDI S 123 345
+
+Loader "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\Tabs_Collection.xml" "C:\Programmazione & co\backOffice\marcheITA.csv" N marcheITA S 123 345
+
+Loader "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\Tabs_Collection.xml" "C:\Programmazione & co\backOffice\marcheSRL.csv" N marcheSRL S 123 345
+
+-- ZIP
+ZIP -o "C:\Programmazione & co\backOffice\test.zip" -i "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\Tabs_Collection.xml" "C:\Programmazione & co\backOffice\marcheSRL.csv"
+
+
+--- 
+
+java -jar scheduler.jar .\sched.properties /p
+
+java -jar backOffice.jar Mail .\bo_server.properties .\mail_server.xml mail_tipo_1 5 2
+
+
+Extractor "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\Extractor.xml" query_tipo_1 "C:\Programmazione & co\backOffice\tab_prova_out.csv" 123 345 
+
+SQLExecutor "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\SQLExecutor.xml" SQLCommand_tipo_1 123 345 
+SQLExecutor "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\SQLExecutor.xml" SQLCommand_tipo_2 123 345 
+SQLExecutor "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\SQLExecutor.xml" SQLCommand_tipo_3 123 345 
+SQLExecutor "C:\Programmazione & co\backOffice\bo.properties" "C:\Programmazione & co\backOffice\SQLExecutor.xml" SQLCommand_tipo_4 123 345 
+
+
+
+
+java -jar backOffice.jar Loader ./bo_server.properties ./Tabs_Collection.xml ./ANAGRAFICA_COLL.csv N anagrafica_coll S 123 345
+java -jar backOffice.jar Mail ./bo_server.properties ./mail_server.xml mail_tipo_1 123 345 
+
+--- nuovi lanci
+java -jar backOffice.jar Loader ./bo_server.properties ./Tabs_Collection_minuscole.xml ./ANAGRAFICA_COLL.csv N anagrafica_coll S 123 345
+java -jar backOffice.jar Loader ./bo_server.properties ./Tabs_Collection_minuscole.xml ./FATTURATO_ITA.csv N fatturato_ita S 123 345
+java -jar backOffice.jar Loader ./bo_server.properties ./Tabs_Collection_minuscole.xml ./FATTURATO_SRL.csv N fatturato_srl S 123 345
+java -jar backOffice.jar Loader ./bo_server.properties ./Tabs_Collection_minuscole.xml ./FIDI.csv N fidi S 123 345
+java -jar backOffice.jar Loader ./bo_server.properties ./Tabs_Collection_minuscole.xml ./marcheITA.csv N marche_ita S 123 345
+java -jar backOffice.jar Loader ./bo_server.properties ./Tabs_Collection_minuscole.xml ./marcheSRL.csv N marche_srl S 123 345
+
+java -jar backOffice.jar Mail ./bo_server.properties ./mail_server.xml mail_tipo_1 123 345 
+
+java -jar backOffice.jar FTP ./bo_server.properties ./ftp2.xml FTP_tipo_1 123 345 activation-1.1.1.wso2v2.jar
+
+java -jar backOffice.jar Extractor ./bo_server.properties ./Extractor.xml query_tipo_1 ./tab_prova_out.csv 123 345 
+
+java -jar backOffice.jar SQLExecutor ./bo_server.properties ./SQLExecutor.xml SQLCommand_tipo_1 123 345
+
+java -jar backOffice.jar ZIP -o ./test.zip -i ./bo_server.properties ./Tabs_Collection.xml ./marcheSRL.csv
+
+
+--- nuovi lanci ancora per postgres
+java -jar backOffice.jar Loader bo.properties tab_prova.xml tab_prova.csv N batch.tab_prova S 123 345
+
+java -jar backOffice.jar Mail bo.properties mail_server.xml mail_tipo_1 123 345 
+
+java -jar backOffice.jar FTP bo.properties ftp2.xml FTP_tipo_1 123 345 tab_prova.xml
+
+java -jar backOffice.jar Extractor bo.properties Extractor.xml query_tipo_1 ./tab_prova_out.csv 123 345 
+
+java -jar backOffice.jar SQLExecutor bo.properties SQLExecutor.xml SQLCommand_tipo_1 123 345
+
+java -jar backOffice.jar SQLExecutor bo.properties SQLExecutor.xml SQLCommand_tipo_3 123 345
+

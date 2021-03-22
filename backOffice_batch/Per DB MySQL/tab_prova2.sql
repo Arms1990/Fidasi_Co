@@ -1,0 +1,1 @@
+SELECT CONCAT('#ARGUMENT_0#;',IFNULL(a,''),';',IFNULL(b,''),';',IFNULL(c,''),';',IFNULL(DATE_FORMAT(d, '%Y%m%d'),''),';',IFNULL(DATE_FORMAT(e, '%Y/%m/%d %T'),'')) FROM tab_prova

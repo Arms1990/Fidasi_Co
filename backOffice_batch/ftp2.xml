@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<backOfficeFTP>
+	<FTP_tipo_1>
+		<Server>ftp.leveln.it</Server>
+		<Port>21</Port>
+		<Usr>erbdeipn</Usr>
+		<Psw>y8pd6hr}dt^K</Psw>
+		<RemoteWorkingDirectory>/test_ftp</RemoteWorkingDirectory>
+	</FTP_tipo_1>	
+</backOfficeFTP>	

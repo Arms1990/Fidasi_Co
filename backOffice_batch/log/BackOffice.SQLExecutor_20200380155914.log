@@ -1,0 +1,2 @@
+DEBUG|2020-03-20 15:59:15,738|LogManager(startElab:43)| backOffice.SQLExecutor: Elaboratione iniziata
+DEBUG|2020-03-20 15:59:15,812|LogManager(EndElab:79)| backOffice.SQLExecutor: Elaboration in errore.Can not issue NULL query.

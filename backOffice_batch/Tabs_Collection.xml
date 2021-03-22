@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<backOfficeLoader>
+	<ANAGRAFICA_COLL CSVSeparator=";" Commit="1000">
+		<Cd_CF type="STRING" seq="0"></Cd_CF> 
+		<Descrizione type="STRING" seq="1"></Descrizione> 
+		<PartitaIva type="STRING" seq="2"></PartitaIva>
+		<CodiceFiscale type="STRING" seq="3"></CodiceFiscale> 
+		<indirizzo type="STRING" seq="4"></indirizzo> 
+		<Cap type="STRING" seq="5"></Cap> 
+		<Localita type="STRING" seq="6"></Localita>
+		<CD_Provincia type="STRING" seq="7"></CD_Provincia>
+		<Regione type="STRING" seq="8"></Regione> 
+		<Telefono type="STRING" seq="9"></Telefono>
+		<Cellulare type="STRING" seq="10"></Cellulare> 
+		<EMail type="STRING" seq="11"></EMail> 
+		<Cd_LS_1 type="STRING" seq="12"></Cd_LS_1> 
+		<Agente_Descrizione type="STRING" seq="13"></Agente_Descrizione>		
+	</ANAGRAFICA_COLL>
+	<FATTURATO_SRL CSVSeparator=";" Commit="1000">
+		<Cd_Agente_1 Type="STRING" seq="0"></Cd_Agente_1>         
+		<Descrizione Type="STRING" seq="1"></Descrizione>         
+		<Cd_Cf Type="STRING" seq="2"></Cd_Cf>               
+		<Descrizione_CF Type="STRING" seq="3"></Descrizione_CF>      
+		<DataDoc Type="STRING" seq="4"></DataDoc>             
+		<Cd_Do Type="STRING" seq="5"></Cd_Do>               
+		<NumeroDoc Type="STRING" seq="6"></NumeroDoc>           
+		<datascadenza Type="STRING" seq="7"></datascadenza>        
+		<pagamento Type="STRING" seq="8"></pagamento>           
+		<CD_xPSCanale Type="STRING" seq="9"></CD_xPSCanale>        
+		<Cd_Aliquota_R Type="STRING" seq="10"></Cd_Aliquota_R>       
+		<Descrizione_Aliquota Type="STRING" seq="11"></Descrizione_Aliquota>
+		<Aliquota Type="STRING" seq="12"></Aliquota>            
+		<imponibile Type="STRING" seq="13"></imponibile>          
+		<spese_trasporto Type="STRING" seq="14"></spese_trasporto>     
+		<iva Type="STRING" seq="15"></iva>                 
+		<totale_fattura Type="STRING" seq="16"></totale_fattura>      
+		<vettore Type="STRING" seq="17"></vettore>             
+		<note Type="STRING" seq="18"></note>                
+		<stato_credito Type="STRING" seq="19"></stato_credito>       
+		<data_pagamento Type="STRING" seq="20"></data_pagamento>      
+		<importo_pagato Type="STRING" seq="21"></importo_pagato>      
+		<tipo_incasso Type="STRING" seq="22"></tipo_incasso>        
+		<Descrizione_CGConto Type="STRING" seq="23"></Descrizione_CGConto> 
+		<gruppo1 Type="STRING" seq="24"></gruppo1>             
+		<gruppo2 Type="STRING" seq="25"></gruppo2>             
+		<gruppo3 Type="STRING" seq="26"></gruppo3>             		
+	</FATTURATO_SRL>
+	<FATTURATO_ITA CSVSeparator=";" Commit="1000">
+		<Cd_Agente_1 Type="STRING" seq="0"></Cd_Agente_1>         
+		<Descrizione Type="STRING" seq="1"></Descrizione>         
+		<Cd_Cf Type="STRING" seq="2"></Cd_Cf>               
+		<Descrizione_CF Type="STRING" seq="3"></Descrizione_CF>      
+		<DataDoc Type="STRING" seq="4"></DataDoc>             
+		<Cd_Do Type="STRING" seq="5"></Cd_Do>               
+		<NumeroDoc Type="STRING" seq="6"></NumeroDoc>           
+		<datascadenza Type="STRING" seq="7"></datascadenza>        
+		<pagamento Type="STRING" seq="8"></pagamento>           
+		<CD_xPSCanale Type="STRING" seq="9"></CD_xPSCanale>        
+		<Cd_Aliquota_R Type="STRING" seq="10"></Cd_Aliquota_R>       
+		<Descrizione_Aliquota Type="STRING" seq="11"></Descrizione_Aliquota>
+		<Aliquota Type="STRING" seq="12"></Aliquota>            
+		<imponibile Type="STRING" seq="13"></imponibile>          
+		<spese_trasporto Type="STRING" seq="14"></spese_trasporto>     
+		<iva Type="STRING" seq="15"></iva>                 
+		<totale_fattura Type="STRING" seq="16"></totale_fattura>      
+		<vettore Type="STRING" seq="17"></vettore>             
+		<note Type="STRING" seq="18"></note>                
+		<stato_credito Type="STRING" seq="19"></stato_credito>       
+		<data_pagamento Type="STRING" seq="20"></data_pagamento>      
+		<importo_pagato Type="STRING" seq="21"></importo_pagato>      
+		<tipo_incasso Type="STRING" seq="22"></tipo_incasso>        
+		<Descrizione_CGConto Type="STRING" seq="23"></Descrizione_CGConto> 
+		<Classificazione Type="STRING" seq="24"></Classificazione>             
+		<gruppo2 Type="STRING" seq="25"></gruppo2>             
+		<gruppo3 Type="STRING" seq="26"></gruppo3>             		
+	</FATTURATO_ITA>
+	<FIDI CSVSeparator=";" Commit="1000">
+		<NomeDitta Type="STRING" seq="0"></NomeDitta>        
+		<Cd_CF Type="STRING" seq="1"></Cd_CF>            
+		<Descrizione Type="STRING" seq="2"></Descrizione>      
+		<Fido Type="STRING" seq="3"></Fido>             
+		<OrdiniInevasi Type="STRING" seq="4"></OrdiniInevasi>    
+		<BolleNonFatturate Type="STRING" seq="5"></BolleNonFatturate>
+		<FattureDaScadere Type="STRING" seq="6"></FattureDaScadere> 
+		<FattureNonPagate Type="STRING" seq="7"></FattureNonPagate> 
+		<FattureInsolute Type="STRING" seq="8"></FattureInsolute>  
+		<Esposizione Type="STRING" seq="9"></Esposizione>      
+		<Differenza Type="STRING" seq="10"></Differenza>       
+	</FIDI>
+	<marcheITA CSVSeparator=";" Commit="1000">
+		<DataDoc Type="STRING" seq="0"></DataDoc>          
+		<Cd_CF Type="STRING" seq="1"> </Cd_CF>            
+		<RagSoc Type="STRING" seq="2"></RagSoc>           
+		<Cd_Ar Type="STRING" seq="3"> </Cd_Ar>            
+		<Descrizione Type="STRING" seq="4"></Descrizione>      
+		<Cd_ARMisura Type="STRING" seq="5"></Cd_ARMisura>      
+		<Cd_VL Type="STRING" seq="6"> </Cd_VL>            
+		<ImportiIvati Type="STRING" seq="7"></ImportiIvati>     
+		<Valore Type="STRING" seq="8"></Valore>           
+		<ValoreE Type="STRING" seq="9"></ValoreE>          
+		<Qta Type="STRING" seq="10">  </Qta>              
+		<VL_Desc Type="STRING" seq="11"></VL_Desc>          
+		<VL_PicSep Type="STRING" seq="12"></VL_PicSep>        
+		<trasporto Type="STRING" seq="13"></trasporto>        
+		<incasso Type="STRING" seq="14"></incasso>          
+		<imballo Type="STRING" seq="15"></imballo>          
+		<bolli Type="STRING" seq="16"></bolli>            
+		<assicurazioni Type="STRING" seq="17"></assicurazioni>    
+		<varie Type="STRING" seq="18"></varie>            
+		<cd_agente_1 Type="STRING" seq="19"></cd_agente_1>      
+		<descagente1 Type="STRING" seq="20"></descagente1>      
+		<provvigioneriga_1 Type="STRING" seq="21"></provvigioneriga_1>
+		<valprovvigione_1 Type="STRING" seq="22"></valprovvigione_1> 
+		<colli Type="STRING" seq="23"></colli>            
+		<pesolordo Type="STRING" seq="24"></pesolordo>        
+		<pesonetto Type="STRING" seq="25"></pesonetto>        
+		<cd_dovettore_1 Type="STRING" seq="26"></cd_dovettore_1>   
+		<vettore Type="STRING" seq="27"></vettore>          
+		<desc_marca Type="STRING" seq="28"></desc_marca>       
+		<Cd_ARMarca Type="STRING" Seq="29"></Cd_ARMarca>       
+	</marcheITA>
+	<marcheSRL CSVSeparator=";" Commit="1000">
+		<DataDoc Type="STRING" seq="0"></DataDoc>          
+		<Cd_CF Type="STRING" seq="1"> </Cd_CF>            
+		<RagSoc Type="STRING" seq="2"></RagSoc>           
+		<Cd_Ar Type="STRING" seq="3"> </Cd_Ar>            
+		<Descrizione Type="STRING" seq="4"></Descrizione>      
+		<Cd_ARMisura Type="STRING" seq="5"></Cd_ARMisura>      
+		<Cd_VL Type="STRING" seq="6"> </Cd_VL>            
+		<ImportiIvati Type="STRING" seq="7"></ImportiIvati>     
+		<Valore Type="STRING" seq="8"></Valore>           
+		<ValoreE Type="STRING" seq="9"></ValoreE>          
+		<Qta Type="STRING" seq="10">  </Qta>              
+		<VL_Desc Type="STRING" seq="11"></VL_Desc>          
+		<VL_PicSep Type="STRING" seq="12"></VL_PicSep>        
+		<trasporto Type="STRING" seq="13"></trasporto>        
+		<incasso Type="STRING" seq="14"></incasso>          
+		<imballo Type="STRING" seq="15"></imballo>          
+		<bolli Type="STRING" seq="16"></bolli>            
+		<assicurazioni Type="STRING" seq="17"></assicurazioni>    
+		<varie Type="STRING" seq="18"></varie>            
+		<cd_agente_1 Type="STRING" seq="19"></cd_agente_1>      
+		<descagente1 Type="STRING" seq="20"></descagente1>      
+		<provvigioneriga_1 Type="STRING" seq="21"></provvigioneriga_1>
+		<valprovvigione_1 Type="STRING" seq="22"></valprovvigione_1> 
+		<colli Type="STRING" seq="23"></colli>            
+		<pesolordo Type="STRING" seq="24"></pesolordo>        
+		<pesonetto Type="STRING" seq="25"></pesonetto>        
+		<cd_dovettore_1 Type="STRING" seq="26"></cd_dovettore_1>   
+		<vettore Type="STRING" seq="27"></vettore>          
+		<desc_marca Type="STRING" seq="28"></desc_marca>       
+		<Cd_ARMarca Type="STRING" Seq="29"></Cd_ARMarca>       
+	</marcheSRL>
+</backOfficeLoader>	
+	

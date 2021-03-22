@@ -1,0 +1,2 @@
+DEBUG|2020-03-20 14:47:48,976|LogManager(startElab:43)| backOffice.SQLExecutor: Elaboratione iniziata
+DEBUG|2020-03-20 14:49:03,264|LogManager(EndElab:68)| backOffice.SQLExecutor: Elaboration terminata con successo. 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<backOfficeFTP>
+	<FTP_tipo_1>
+		<Server>ftp.melitosrl.com</Server>
+		<Port>21</Port>
+		<Usr>reshaga54</Usr>
+		<Psw>hedgUFa56</Psw>
+		<RemoteWorkingDirectory>/repository</RemoteWorkingDirectory>
+	</FTP_tipo_1>	
+</backOfficeFTP>	

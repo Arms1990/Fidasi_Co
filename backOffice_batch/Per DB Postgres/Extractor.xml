@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<backOfficeExtractor>
+	<query_tipo_1>
+		<query>
+			<![CDATA[
+				SELECT CONCAT('#ARGUMENT_0#;',a,';',b,';',c,';',to_char(d, 'DD/MM/YYYY'),';',to_char(e, 'DD/MM/YYYY HH24:MI:SS') ) FROM batch.tab_prova
+			]]>
+		</query>
+	</query_tipo_1>	
+</backOfficeExtractor>	

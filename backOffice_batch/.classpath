@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry exported="true" kind="lib" path="C:/Programmazione &amp; co/backOffice/log4j.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Programmazione &amp; co/backOffice/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Programmazione &amp; co/backOffice/javax.mail.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Programmazione &amp; co/backOffice/commons-net-3.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Programmazione &amp; co/backOffice/activation-1.1.1.wso2v2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Programmazione &amp; co/backOffice/postgresql-42.1.4.jre6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

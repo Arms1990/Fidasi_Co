@@ -1,0 +1,22 @@
+<div class="notification-container" *ngIf="notifications">
+    <ng-container *ngFor="let notification of notifications">
+        <div *ngIf="notification.type === 'success'" class="bg-green-600 text-white rounded-lg border-gray-300 border p-3 my-4 shadow-lg">
+            <div class="flex flex-row">
+            <div class="ml-2 mr-6">
+                <span class="font-semibold">{{notification.title}}</span>
+                <span class="block text-white-500">{{notification.message}}</span>
+            </div>
+            </div>
+        </div>
+        <div *ngIf="notification.type === 'error'" class="bg-red-500 text-white rounded-lg border-gray-300 border p-3 my-4 shadow-lg">
+            <div class="flex flex-row">
+                <div class="ml-2 mr-6">
+                    <span class="font-semibold">{{notification.title}}</span>
+                    <span class="block text-white-500">{{notification.message}}</span>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+</div>
+
+<router-outlet *ngIf="authenticated"></router-outlet>

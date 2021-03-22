@@ -1,0 +1,2 @@
+DEBUG|2020-04-22 09:15:41,458|LogManager(startElab:43)| backOffice.Loader: Elaboratione iniziata
+DEBUG|2020-04-22 09:15:41,590|LogManager(EndElab:79)| backOffice.Loader: Elaboration in errore.Errore durante l'inserimento massivo alla riga 2. Formato non valido alla colonna 5, campo=e, tipo=TIMESTAMP, formato=DD/MM/YYYY HH:MI:SS e valore letto in input=32/03/2019 04:05:06 - messaggio d'errore: Timestamp format must be yyyy-mm-dd hh:mm:ss[.fffffffff]

@@ -1,0 +1,2 @@
+DEBUG|2020-03-20 11:01:44,488|LogManager(startElab:43)| backOffice.Extractor: Elaboratione iniziata
+DEBUG|2020-03-20 11:01:44,637|LogManager(EndElab:68)| backOffice.Extractor: Elaboration terminata con successo. 
